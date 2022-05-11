@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.com.erp</groupId>
+	<artifactId>ERP</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<description>Projeto para demonstração de um CRUD em Java Desktop </description>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.swinglabs</groupId>
+			<artifactId>swingx</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.6.0.Final</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.3.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.jasperreports</groupId>
+			<artifactId>jasperreports</artifactId>
+			<version>6.19.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>br.com.caelum.stella</groupId>
+			<artifactId>caelum-stella-core</artifactId>
+			<version>2.1.5</version>
+		</dependency>
+
+
+
+
+
+
+
+
+	</dependencies>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
